@@ -1,0 +1,20 @@
+mixin post(img_src, title, date, description)
+    .post
+
+        .content_title
+            .title #{title}
+            .date #{date}
+
+        .content_description
+            img(src="./img/posts-preview/" + img_src)
+            p.description #{description}
+
+        .post_footer
+            .button Read More
+            .footer_social
+                +image("whatsapp.svg")
+                +image("instagram.svg")
+                +image("twitter.svg")
+                +image("facebook-f.svg")
+        
+    .line

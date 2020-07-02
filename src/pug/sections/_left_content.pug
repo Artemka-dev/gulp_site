@@ -1,0 +1,17 @@
+- const pages = ["1", "2", "3"]
+
+.left_content
+    include ./subsections/_all_posts.pug
+
+    .paginate
+
+        .paginate_block
+
+        .paginate_block
+            each item in pages
+                span.page= item
+            else
+                span No Pages
+
+        .paginate_block
+            span.text older posts

@@ -1,0 +1,9 @@
+mixin comment(image_src, text, date)
+    .comment
+        .photo
+            img(src="./img/small-thumbs/" + image_src)
+
+        .comment_text #{text}
+        .comment_date #{date}
+
+    .line

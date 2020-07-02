@@ -1,0 +1,14 @@
+- const inst_images = ["insta-01.jpg", "insta-02.jpg", "insta-03.jpg", "insta-04.jpg", "insta-05.jpg", "insta-06.jpg", "insta-07.jpg", "insta-08.jpg", "insta-09.jpg", "insta-10.jpg"]
+
+.right_content
+    .recent_posts Recent posts
+    include ./subsections/_recent_posts.pug
+
+    .recent_posts Popular posts
+    include ./subsections/_popular_posts.pug
+
+    .recent_posts Instagram
+
+    .instagram_blog
+        each item in inst_images
+            +inst(item)

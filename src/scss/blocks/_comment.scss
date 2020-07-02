@@ -1,0 +1,48 @@
+.recent_posts {
+    border: 1px solid #ccc;
+    padding: 15px 20px;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 4px;
+
+    margin-top: 60px;
+}
+
+.comment_text {
+    color: #1a1a1a;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.comment_date {
+    color: #b0b0b0;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    font-size: 12px;
+}
+
+.comment {
+    text-align: center;
+    width: 240px;
+
+    margin-top: 30px;
+}
+
+.photo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    object-fit: cover;
+
+    margin: 0 auto;
+}
+
+.photo {
+    margin-bottom: 10px;
+}

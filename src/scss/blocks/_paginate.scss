@@ -1,0 +1,34 @@
+// paginate
+.page {
+    margin-right: 10px;
+
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    &:first-child {
+        color: red;
+    }
+}
+
+.paginate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 30px auto;
+}
+
+.text {
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #000000;
+}

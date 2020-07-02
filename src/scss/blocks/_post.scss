@@ -1,0 +1,45 @@
+.post {
+    margin-top: 60px;
+}
+
+.title {
+    color: #1a1a1a;
+    font-family: 'Playfair Display', serif;
+    font-size: 33px;
+    font-weight: 400;
+
+    margin-bottom: 15px;
+}
+
+.description {
+
+    color: #1a1a1a;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.date {
+    color: #b0b0b0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 35px;
+}
+
+.title, .date {text-align: center;}
+
+
+// Post Footer
+.post_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    margin-top: 40px;
+    height: 1px;
+    background-color: #dde2e7;
+}

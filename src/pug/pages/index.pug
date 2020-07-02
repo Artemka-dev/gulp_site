@@ -1,0 +1,14 @@
+extends ./../layouts/main.pug
+
+block variables
+    - const title = "Главная";
+
+block content
+    include ../sections/_header.pug
+
+    .container
+        .block
+            include ../sections/_left_content.pug
+            include ../sections/_right_content.pug
+        
+    include ../sections/_footer.pug
